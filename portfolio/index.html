@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background: #f5f5f5; color: #333; }/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 { font-size: 24px; }
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.hero {
+  background: #555;
+  color: #fff;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text { max-width: 50%; }
+.hero-text h2 { font-size: 36px; margin-bottom: 10px; }
+.hero-text p { margin-bottom: 20px; }
+.hero-text button {
+  padding: 10px 20px;
+  background: #1e90ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.hero img { width: 250px; border-radius: 10px; }
+
+
+section { padding: 60px 40px; background: #fff; margin: 20px; border-radius: 8px; }
+section h2 { margin-bottom: 20px; color: #1e90ff; }
+
+
+.skills span {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 8px 12px;
+  margin: 6px;
+  border-radius: 4px;
+}
+
+
+.project {
+  background: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+
+.contact p { margin-bottom: 8px; }
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  margin-top: 20px;
+}
+
+  </style>
+</head>
+<body>  <!-- Header -->  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <!-- Hero -->  <div class="hero">
+    <div class="hero-text">
+      <h2>Nethra N</h2>
+      <p>I am a beginner web developer learning HTML and CSS.</p>
+      <button>Hire Me</button>
+    </div>
+    <img src="photo.jpg" alt="My Photo">
+  </div>  <!-- About -->  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a student and aspiring web developer. I enjoy creating simple and clean websites using HTML and CSS.
+    </p>
+  </section>  <!-- Skills -->  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Basic JavaScript</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>  <!-- Projects -->  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A simple personal portfolio built using HTML and CSS.</p>
+    </div>
+    <div class="project">
+      <h3>Landing Page</h3>
+      <p>A basic responsive landing page design.</p>
+    </div>
+  </section>  <!-- Resume -->  <section>
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+  </section>  <!-- Contact -->  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: nethra@email.com</p>
+    <p>Phone: +91 9876543210</p>
+  </section>  <!-- Footer -->  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer></body>
+</html>
